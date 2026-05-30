@@ -4,7 +4,9 @@
 
 This is the **official DevOps Micro Internship repository** by Pravin Mishra.
 
-You do not edit this repo. You create your own personal copy of it — called a **fork** — and work there. Your fork is yours. Every assignment you submit lives in your fork.
+**Week 0** is submitted via Google Form (selection assignment — before you join the program).
+
+**From Week 1 onwards**, all assignments are submitted via GitHub. You create your own personal copy of this repo — called a **fork** — and work there. Your fork is yours. Every assignment you submit lives in your fork.
 
 ---
 
