@@ -33,7 +33,9 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe that spending years preparing before taking action is often a form of procrastination disguised as productivity.
+
+Many people around me believe they need another course, another certification, or more confidence before they can start something meaningful. My experience has been the opposite. Most of my learning happened after I started working on projects and making mistakes. I learned more troubleshooting AWS deployments, GitHub Actions failures, and Linux configuration issues than I did from simply watching tutorials. I believe progress comes from action first and clarity later, not the other way around.
 
 ---
 
@@ -55,11 +57,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistent effort produces better results than short bursts of motivation.
 
 ### Evidence from my life
 
-Add your answer here...
+There were many periods when I was not motivated to study Cloud and DevOps, especially while unemployed and applying for jobs. However, whenever I consistently spent time learning and building projects, I made measurable progress. My AWS capstone project was completed through steady effort over time, not through motivation.
 
 ---
 
@@ -67,11 +69,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Most technical problems become solvable if you stay with them long enough.
 
 ### Evidence from my life
 
-Add your answer here...
+While working on GitHub Actions deployment to AWS EC2, I faced repeated SSH authentication errors. I spent days troubleshooting, researching documentation, testing solutions, and asking questions. Eventually I solved the issue and completed the deployment. The solution was not intelligence; it was persistence.
 
 ---
 
@@ -79,11 +81,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+People cannot help you if they do not know your situation.
 
 ### Evidence from my life
 
-Add your answer here...
+When I was initially left out of the DMI selected list due to a misunderstanding about my interview attendance, I followed up respectfully instead of assuming the decision was final. That follow-up led to clarification and eventually my acceptance into the cohort. Had I remained silent, the outcome would have been very different.
 
 ---
 
@@ -135,11 +137,26 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+From Customer Support to Cloud & DevOps: How Abdul Ganiyu Built a Career Through Consistency
+
+In 2030, Abdul Ganiyu Sumaila Ali is recognized as a Cloud and DevOps Engineer who built his career through persistence, hands-on learning, and a commitment to continuous improvement.
+
+His journey did not begin in technology. Before transitioning into Cloud and DevOps, Abdul worked in customer support and logistics roles where he developed strong communication, problem-solving, and customer relationship skills. While those experiences were valuable, he became increasingly interested in the technology powering modern businesses and decided to pursue a career change.
+
+Rather than relying solely on certifications and courses, Abdul focused on building projects and documenting his work publicly. He deployed cloud-based applications, automated deployments, worked with Infrastructure as Code, and published detailed project documentation on GitHub. His portfolio became a practical demonstration of his skills and helped him stand out in a competitive job market.
+
+A major turning point came when he joined the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI. The program strengthened his technical foundation in Cloud, DevOps, automation, and modern AI-assisted engineering workflows. More importantly, it taught him how to think like an engineer by solving real-world problems through projects and assignments.
+
+Over the years, Abdul earned industry-recognized cloud certifications, contributed to open-source projects, and shared lessons from his learning journey through LinkedIn articles and technical blogs. His GitHub profile evolved into a collection of practical cloud and automation projects that reflected his growth as an engineer.
+
+Today, Abdul works in a Cloud and DevOps role where he helps build, deploy, and maintain reliable cloud infrastructure. He is known for combining technical expertise with strong communication skills, enabling him to bridge the gap between users, business needs, and technology teams.
+His story serves as a reminder that career transitions are possible when learning is combined with action, consistency, and a willingness to embrace challenges. What started as curiosity eventually became a profession built on practical experience, continuous learning, and the determination to keep moving forward.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community (https://lnkd.in/drhtPMDS).
 
 ### Public Link
 
-Paste your link here:
+(https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY)
 
 `__________________________`
 
@@ -165,7 +182,7 @@ This is about self-awareness, not judgment.
 
 ### Answer Format
 
-**Yes / No**
+**Yes**
 
 If Yes:
 
@@ -173,7 +190,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+There have been times when I took shortcuts instead of putting in the full effort required. One example is applying for jobs without thoroughly tailoring my CV or researching the company because I was focused on submitting as many applications as possible. While it saved time in the short term, it often left me feeling dissatisfied because I knew I had not given myself the best chance of success.
+
+The main emotions I felt were regret and frustration. Regret because I knew I could have done better, and frustration because the outcomes usually reflected the effort I put in. Those experiences taught me that shortcuts may provide temporary convenience, but they rarely produce the results I actually want. Over time, I have become more intentional about doing things properly, even when it takes longer.
 
 ---
 
@@ -199,16 +218,45 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits — James Clear
+
+![book1](screenshots/week-01-screenshot-01.jpeg)
+
+2. Deep Work — Cal Newport
+
+![book2](screenshots/week-01-screenshot-02.jpeg)
+
+3. The Psychology of Money — Morgan Housel
+
+![book3](screenshots/week-01-screenshot-03.jpeg)
+
+4. So Good They Can't Ignore You — Cal Newport
+
+![book4](screenshots/week-01-screenshot-04.jpeg)
+
+5. The 7 Habits of Highly Effective People — Stephen R. Covey
+
+![book5](screenshots/week-01-screenshot-05.jpeg)
+
+6. The First 90 Days — Michael D. Watkins
+
+![book6](screenshots/week-01-screenshot-06.jpeg)
+
+7. The Lean Startup — Eric Ries
+
+![book7](screenshots/week-01-screenshot-07.jpeg)
+
+8. The Effective Engineer — Edmond Lau
+
+![book8](screenshots/week-01-screenshot-08.jpeg)
+
+9. The Phoenix Project — Gene Kim, Kevin Behr & George Spafford
+
+![book9](screenshots/week-01-screenshot-09.webp)
+
+10. The DevOps Handbook — Gene Kim, Jez Humble, Patrick Debois & John Willis
+
+![book10](screenshots/week-01-screenshot-10.jpeg)
 
 ---
 
@@ -237,16 +285,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week
+* DMI assignments completed
+* Cloud/DevOps projects completed
+* GitHub commits and project updates
+* Technical articles or posts published
+* Job applications submitted
+* Interview invitations received
+* Monthly savings and expenses
+* Sleep hours per night
+* Weekly exercise or walking sessions
 
 ---
 
@@ -268,11 +316,11 @@ Examples:
 
 ### Did You Do It?
 
-**Yes / No**
+**Yes**
 
 Answer:
 
-Add your answer here...
+I completed a brain dump covering my career goals, DMI commitments, job search activities, financial responsibilities, learning objectives, pending tasks, and personal priorities.
 
 ---
 
@@ -290,7 +338,10 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Monday–Thursday: 1–2 hours of focused DMI study and assignment work
+Saturday: Attend DMI live sessions and take notes
+Sunday: Review weekly progress, organize notes, and prepare for the next week
+Daily: Read or learn something related to Cloud, DevOps, or AI
 
 ---
 
@@ -298,11 +349,12 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday–Thursday: 8:00 PM – 10:00 PM
+Sunday: 4:00 PM – 6:00 PM for review and planning
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+Minimum of 5 focused study/work sessions per week
 
 ---
 
@@ -316,27 +368,30 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
-
+Keep phone on silent during study sessions
+No social media during focus blocks
+Study with only the required tabs and applications open
+Complete planned tasks before consuming entertainment content
+Track unfinished tasks and review them every Sunday
 ---
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I perform better when I have structure and accountability. When expectations are clear and there is a defined goal, I am more likely to stay consistent and make progress.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I sometimes spend too much time preparing, researching, or thinking about the best approach instead of starting immediately and learning through action.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Every weekday at 8:00 PM, I will begin a 90-minute focused DMI work session before checking social media, watching videos, or engaging in other non-essential activities.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
+(https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY)
 
 `__________________________`
 
@@ -344,8 +399,8 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **[Linkedin](https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY)**  
+- Blog / Medium : **[Medium](https://medium.com/@alisumaila.1000/from-customer-support-to-cloud-devops-how-abdul-ganiyu-built-a-career-through-consistency-0badac26bbfd)**  
 
 ---
 
