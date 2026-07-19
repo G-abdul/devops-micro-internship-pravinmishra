@@ -54,7 +54,8 @@ You can publish your blog on:
 
 Blog Link:
 https://medium.com/@alisumaila.1000/reflection-week-2-c12f1da5d05d?sharedUserId=alisumaila.1000
-`__________________________________________`
+
+`___________________________________________________________________________________________`
 
 ---
 
@@ -122,7 +123,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-agenticai-claudecode-activity-7482948477321224192-LRzX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY
 
-`__________________________________________`
+`______________________________________________________________________________________________________`
 
 ---
 
@@ -138,15 +139,15 @@ https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-agenticai-claudeco
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✅] Blog written with required structure
+* [✅] Blog includes at least 2–3 Week 2 topics
+* [✅] Blog is publicly accessible
+* [✅] LinkedIn post created
+* [✅] Required P.S. line included
+* [✅] LinkedIn post content copied in submission field
+* [✅] Blog link added
+* [✅] LinkedIn post link added
+* [✅] Screenshots added to GitHub repo
 
 ---
 

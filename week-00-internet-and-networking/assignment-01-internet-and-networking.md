@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/Network-protocol.png) ![Task 1 Screenshot](screenshots/Network-protocol-2.png) ![Task 1 Screenshot](screenshots/Network-protocol-3.png) ![Task 1 Screenshot](screenshots/Network-protocol-4.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+One key concept I revisited was networking protocols—the rules devices follow to communicate across networks. A simple real-world example is how people follow conversational rules so communication stays organized and understandable.
 
 ---
 
@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a website is hosted in Finland, users anywhere in the world can access it through the internet using networking protocols. Every device connected to the internet has an IP address, which works like a digital home address. When a user enters a website name, the browser finds the server’s IP address and sends a request using TCP/IP. TCP breaks the data into small pieces called packets, while IP helps route those packets across different networks to the server in Finland. This process is called packet switching because packets may travel through different paths before reaching their destination. The server then responds using HTTP or the secure version, HTTPS, to deliver the website content back to the user’s browser, where it is reassembled and displayed correctly.
 
 ---
 
@@ -91,7 +91,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/Three-Tier-Application.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +102,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML/CSS/JavaScript
+* React
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* PostgreSQL
 
 ---
 
@@ -142,7 +142,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+1. DNS (Domain Name System) is like the internet’s phonebook. It translates easy-to-remember domain names, such as epicreads.com, into IP addresses that computers use to locate servers on the internet. Without DNS, users would have to remember numerical IP addresses to access websites.
+
+2. To connect epicreads.com to the IP address 52.172.142.222, an A Record should be used. An A Record maps a domain name directly to an IPv4 address, allowing users to access the website through the domain instead of typing the server’s IP address. (82 words)
 
 ---
 
@@ -178,7 +180,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](screenshots/VS-Code-theme.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -218,7 +220,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/abdulganiyu0_devops-cloudcomputing-networking-share-7462235332479000577-9twJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY
 ```
 
 ---
@@ -227,7 +229,43 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+Behind every website is a chain of networking magic most users never see.
+
+Every strong DevOps engineer needs a solid understanding of networking and application architecture. This week’s DevOps Micro Internship tasks focused on core concepts that power modern applications behind the scenes.
+
+🔹 ChatGPT
+One thing I learned is that networking protocols are basically rules that devices follow to communicate over the internet. A simple example is how people follow rules during a conversation so both sides understand each other clearly.
+I also learned how users worldwide can access a website hosted in another country through technologies like packet switching, IP addresses, TCP/IP, and HTTP/HTTPS. It made me realize how much happens behind the scenes just by opening a website in a browser.
+
+🌐 Internet & Networking
+I explored how data travels across networks in small packets and reaches servers using IP addresses. Understanding TCP/IP and HTTP/HTTPS gave me a clearer picture of how internet communication actually works.
+
+🏗️ App Architecture
+I studied the difference between:
+• Two-tier architecture (Frontend + Database)
+• Three-tier architecture (Frontend + Backend + Database)
+I also created diagrams showing how these layers interact and researched common technologies used in each layer.
+Frontend:
+• Next.js
+• Axios
+Backend:
+• bycrypt.js
+• CORS
+Database:
+• MySQL
+• Sequelize
+
+📡 DNS
+I learned that DNS (Domain Name System) acts like the internet’s phonebook by converting domain names into IP addresses. To connect the domain epicreads.com to the server IP 52.172.142.222, an A Record should be used because it maps a domain directly to an IPv4 address.
+
+💻 VS Code Setup
+I explored Visual Studio Code, opened the integrated terminal, and ran the “dir” command on Windows to navigate files and directories. It was also fun customizing my VS Code theme and getting more comfortable with the development environment.
+
+This internship is helping me build stronger foundations in DevOps step by step, and I’m enjoying the learning process so far.
+
+P.S. This post is part of the DevOps Micro Internship Cohort run by Pravin Mishra [https://lnkd.in/e3knf-G8]. You can start your DevOps journey from his YouTube Playlist [https://lnkd.in/e6_Yaieq]
+
+#DevOps #CloudComputing #Networking #DNS #TCPIP #HTTP #HTTPS #VSCode #SoftwareEngineering #TechLearning #ContinuousLearning #AWS #Linux #DevOpsJourney #TechCommunity
 
 ---
 
@@ -235,19 +273,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+The VS Code setup and basic terminal tasks were straightforward since I already have experience working with development tools and the command line. Understanding application architecture was also familiar because I've previously worked with cloud and web application concepts during my DevOps and AWS learning journey.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+The networking concepts required a deeper level of understanding than I initially expected. While I was familiar with terms like DNS, TCP/IP, HTTP, and HTTPS, explaining how they all work together in a simple and practical way took some research and critical thinking. I also had to ensure I understood the differences between concepts rather than just memorizing definitions.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I want to spend more time strengthening my networking fundamentals since they are essential for DevOps and cloud engineering. I also plan to be more proactive with note-taking and documentation so I can retain concepts better and complete assignments more efficiently. Additionally, I want to continue building the habit of learning by doing rather than only consuming content.
 
 ---
 

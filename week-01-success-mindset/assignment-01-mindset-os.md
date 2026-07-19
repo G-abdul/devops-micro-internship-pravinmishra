@@ -158,7 +158,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 (https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY)
 
-`__________________________`
+`____________________________________________________________________________________________________`
 
 ---
 
@@ -393,14 +393,15 @@ Every weekday at 8:00 PM, I will begin a 90-minute focused DMI work session befo
 
 (https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY)
 
-`__________________________`
+`___________________________________________________________________________________________________`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **[Linkedin](https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY)**  
-- Blog / Medium : **[Medium](https://medium.com/@alisumaila.1000/from-customer-support-to-cloud-devops-how-abdul-ganiyu-built-a-career-through-consistency-0badac26bbfd)**  
+- LinkedIn Post URL: https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY
+  
+- Blog / Medium : https://medium.com/@alisumaila.1000/from-customer-support-to-cloud-devops-how-abdul-ganiyu-built-a-career-through-consistency-0badac26bbfd  
 
 ---
 
