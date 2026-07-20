@@ -386,7 +386,7 @@ Write your answer here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`Add your URL here`
 
 ---
 

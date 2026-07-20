@@ -57,6 +57,7 @@ https://medium.com/@alisumaila.1000/reflection-week-2-c12f1da5d05d?sharedUserId=
 
 `___________________________________________________________________________________________`
 
+
 ---
 
 # Task 2 — Create LinkedIn Post
@@ -79,7 +80,7 @@ Your post must include:
 
 ### Required P.S. Line (Must Include Exactly)
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6) (https://forms.gle/3hvrWJBDzsDeJoPs6).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 ---
 
@@ -121,9 +122,11 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### LinkedIn Post Link:
 
+
 https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-agenticai-claudecode-activity-7482948477321224192-LRzX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY
 
 `______________________________________________________________________________________________________`
+
 
 ---
 

@@ -133,7 +133,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
 
 ## Your Article
 
@@ -159,6 +159,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 (https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY)
 
 `____________________________________________________________________________________________________`
+
 
 ---
 
@@ -394,6 +395,7 @@ Every weekday at 8:00 PM, I will begin a 90-minute focused DMI work session befo
 (https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY)
 
 `___________________________________________________________________________________________________`
+
 
 ---
 
