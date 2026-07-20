@@ -202,13 +202,13 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+Disk usage looks the most critical right now. The CPU load is very low (0.00, 0.00, 0.00), which means the server is not under processing pressure. Memory usage is also reasonable, with about 552 MB available. However, the root disk is already 64% utilized (4.2 GB used out of 6.7 GB). While this is not an immediate problem, disk space is the resource I would monitor most closely because it can gradually fill up with application files, logs, and updates over time.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If a production server reaches 100% disk usage, applications may stop working properly because they can no longer write data to storage. Log files may stop being generated, uploads can fail, temporary files cannot be created, and databases may experience errors. In severe cases, parts of the application may become unavailable until disk space is freed. This is why monitoring disk usage and cleaning up unnecessary files is important in production environments.
 
 ---
 
@@ -222,19 +222,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![Screenshot-1](./screenshots/head-n-20.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![Screenshot-2](./screenshots/grep-R-Deployed-by.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![Screenshot-3](./screenshots/grep-n-try_files.png)
 
 ---
 
@@ -244,7 +244,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+I can confirm that the correct version of the application is deployed by checking the files in the Nginx web root (/var/www/html) and verifying that the expected content exists. Using the grep command to search for a unique identifier such as "Deployed by" helps confirm that the files currently being served are the ones I deployed. I can also verify this by opening the application in a browser and checking that the expected name, date, or other personalized changes are displayed correctly.
 
 ---
 
@@ -258,19 +258,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![Screenshot-1](./screenshots/broken-config.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+![Screenshot-2](./screenshots/fixed-config.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Screenshot-3](./screenshots/200-OK.png)
 
 ---
 
@@ -280,19 +280,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The configuration failure was caused by a syntax error in the Nginx configuration file. Specifically, the semicolon (;) at the end of the try_files directive was removed. Nginx directives must end with a semicolon, so removing it made the configuration invalid and prevented Nginx from accepting the configuration.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+I fixed the issue by editing the Nginx configuration file and re-adding the missing semicolon to the try_files line. After making the correction, I ran sudo nginx -t to verify that the configuration was valid. Once the test was successful, I restarted Nginx using sudo systemctl restart nginx to apply the changes.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+To avoid this type of issue in production, I would always test configuration changes using sudo nginx -t before restarting or reloading Nginx. I would also review changes carefully, use version control to track configuration updates, and follow a change management process so mistakes can be identified and rolled back quickly if needed. This helps prevent small syntax errors from causing service disruptions.
 
 ---
 
@@ -306,13 +306,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![Screenshot-2](./screenshots/non-200-response.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Screenshot-2](./screenshots/200-OK.png)
 
 ---
 
@@ -322,19 +322,18 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
-
+The application broke because of an incorrect configuration change that prevented Nginx from serving the application properly. In this exercise, a syntax error was intentionally introduced into the Nginx configuration file, which caused the configuration validation to fail. Since Nginx relies on valid configuration files to route requests correctly, even a small mistake can impact application availability.
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+I fixed the issue by reviewing the Nginx configuration file, identifying the incorrect change, and restoring the correct configuration. After making the correction, I ran sudo nginx -t to verify that the configuration was valid. Once the test passed successfully, I restarted Nginx and confirmed that the application was accessible again through the server's public IP address.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+To prevent this type of issue, I would always validate configuration changes using nginx -t before applying them. I would also keep configuration files under version control, create backups before making changes, and test updates in a staging environment whenever possible. These practices help catch errors early and make rollbacks easier if something goes wrong.
 
 ---
 
@@ -350,31 +349,30 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH key-based authentication is more secure because it uses cryptographic keys instead of passwords that can be guessed, reused, or stolen. Private keys remain on the user's device and are not transmitted during login, making unauthorized access much more difficult. It also reduces the risk of brute-force password attacks.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Every open port increases the server's attack surface. By keeping only the necessary ports open, such as port 22 for SSH and port 80 for web traffic, the risk of unauthorized access and potential security vulnerabilities is reduced. Limiting exposed services is a basic security best practice.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
-
+Enabling Nginx on boot ensures that the web server starts automatically whenever the server is restarted. This improves reliability because the application becomes available without requiring manual intervention after maintenance, updates, or unexpected reboots.
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Publicly sharing credentials can allow unauthorized users to access servers, cloud accounts, databases, or applications. This can lead to data breaches, service disruptions, financial losses, and compromised systems. Once a secret is exposed, it should be considered compromised and replaced immediately.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Unused cloud resources can continue generating charges even when they are not actively being used. Stopping or terminating unnecessary resources helps control costs, reduces wasted infrastructure, and minimizes the security risks associated with leaving unused services running.
 
 ---
 
@@ -384,15 +382,19 @@ Write your answer here.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-devops-aws-ugcPost-7485001060873580547-A_38/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY
 
+<<<<<<< Updated upstream
 `Add your URL here`
+=======
+`______________________________________________________________________________________________`
+>>>>>>> Stashed changes
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Linkedin](./screenshots/Linkedin-Prod.png) ![Linkedin](./screenshots/Linkedin-Prod-2.png)
 
 ---
 
@@ -406,17 +408,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
-- [ ] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
-- [ ] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
-- [ ] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
-- [ ] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
-- [ ] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
-- [ ] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
-- [ ] Task 8: Security & Reliability Notes answered
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [✅] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
+- [✅] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
+- [✅] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
+- [✅] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
+- [✅] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
+- [✅] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
+- [✅] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
+- [✅] Task 8: Security & Reliability Notes answered
+- [✅] LinkedIn post published and URL submitted
+- [✅] Full Name visible in all required screenshots
+- [✅] No sensitive data exposed
 
 ---
 
