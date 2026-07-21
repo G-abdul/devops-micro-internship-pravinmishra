@@ -382,13 +382,10 @@ Unused cloud resources can continue generating charges even when they are not ac
 
 #### LinkedIn Post URL
 
-https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-devops-aws-ugcPost-7485001060873580547-A_38/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY
+`https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-devops-aws-ugcPost-7485001060873580547-A_38/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY`
 
-<<<<<<< Updated upstream
-`Add your URL here`
-=======
-`______________________________________________________________________________________________`
->>>>>>> Stashed changes
+`________________________________________________________________________________________________________`
+
 
 ---
 

@@ -97,9 +97,9 @@ https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-agenticai-claudeco
 
 ## GitHub Repository URL
 
-https://github.com/G-abdul/Ultimate-Agentic-DevOps-with-Claude-Code.git
+`https://github.com/G-abdul/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
-`______________________________________________________________________________________`
+`_________________________________________________________________________`
 
 
 ---
