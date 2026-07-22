@@ -430,13 +430,13 @@ This script brings together everything learned throughout the assignment. Variab
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-devops-linux-ugcPost-7485160668401283072-J4a7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Screenshot](./screenshots/W3-assignment-5-Linkedin.png) ![Screenshot](./screenshots/W3-assignment-5-Linkedin-2.png) 
 
 ---
 
@@ -462,7 +462,7 @@ Add your screenshot here.
 - [✅] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
 - [✅] All scripts run without errors
 - [✅] Full Name visible in all required screenshots
-- [ ] LinkedIn post published and URL submitted
+- [✅] LinkedIn post published and URL submitted
 - [✅] No sensitive data exposed
 
 ---

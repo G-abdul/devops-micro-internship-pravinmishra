@@ -17,7 +17,7 @@
 | **Name** | Abdul Ganiyu Sumaila Ali |
 | **LinkedIn** | [Abdul Ganiyu](www.linkedin.com/in/abdulganiyu0) |
 | **Location** | Accra, Ghana |
-| **Background** | Customer Service/Support Specialist | Brand Concierge | Cloud & DevOps Fundamentals | 
+| **Background** | Customer Service/Support Specialist | Cloud & DevOps Fundamentals | 
 | **Goal** | Bridging Customers and Technology with Clarity |
 
 ---
@@ -76,8 +76,8 @@ Week 01 → Success Mindset
 Week 02 → Agentic AI with Claude Code
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
-<!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+ Week 03 → Linux & Bash for DevOps 
+ [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
 <!-- Week 04 → Git & GitHub -->
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
@@ -133,8 +133,8 @@ Week 02 → Agentic AI with Claude Code
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/abdulganiyu0_devops-cloudcomputing-networking-share-7462235332479000577-9twJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY | https://medium.com/@alisumaila.1000/from-customer-support-to-cloud-devops-how-abdul-ganiyu-built-a-career-through-consistency-0badac26bbfd?sharedUserId=alisumaila.1000 |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/abdulganiyu0_from-customer-support-to-cloud-devops-share-7478536020154839040-tvKR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY | https://medium.com/@alisumaila.1000/from-customer-support-to-cloud-devops-how-abdul-ganiyu-built-a-career-through-consistency-0badac26bbfd?sharedUserId=alisumaila.1000 |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-agenticai-claudecode-ugcPost-7482967498653339648-ngOJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY | https://medium.com/@alisumaila.1000/reflection-week-2-c12f1da5d05d?sharedUserId=alisumaila.1000 |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/abdulganiyu0_devops-linux-aws-ugcPost-7485492472052269056-Cg8e/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY | https://medium.com/@alisumaila.1000/i-intentionally-took-down-my-aws-server-to-learn-incident-response-4c74ed343dca?sharedUserId=alisumaila.1000 |
+| 04 | Git & GitHub | 🔄 In Progress | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
