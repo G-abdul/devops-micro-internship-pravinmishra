@@ -102,13 +102,13 @@ Create a one-week Sprint, move two or three Stories into it (approximately 3–5
 
 #### Screenshot 8 — Sprint 1 before starting, showing the selected Stories and Story Points
 
-![Screenshot-8](./screenshots/.png)
+![Screenshot-8](./screenshots/Sprint-1-before-starting.png)
 
 ---
 
 #### Screenshot 9 — Active Sprint board showing the started Sprint and Sprint Goal
 
-![Screenshot-9](./screenshots/.png)
+![Screenshot-9](./screenshots/Started-Sprint-and-Sprint-Goal.png)
 
 ---
 
@@ -122,13 +122,13 @@ Filter Jira work by the `frontend` and `devops` labels and review Stories with S
 
 #### Screenshot 10 — Filter for label = frontend showing the filtered results
 
-![Screenshot-10](./screenshots/.png)
+![Screenshot-10](./screenshots/Filter-for-label-frontend.png)
 
 ---
 
 #### Screenshot 11 — Filter for label = devops showing the filtered results
 
-![Screenshot-11](./screenshots/.png)
+![Screenshot-11](./screenshots/Filter-for-label-devops.png)
 
 ---
 
@@ -142,7 +142,7 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 #### Screenshot 12 — Burndown Chart page opened for Sprint 1
 
-![Screenshot-12](./screenshots/.png)
+![Screenshot-12](./screenshots/Burndown-Chart-page.png)
 
 ---
 
@@ -155,16 +155,16 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 # Completion Checklist
 
-- [ ] Task 1: Private team-managed Scrum Space created with your name (Screenshot 1)
-- [ ] Task 2: Epic "Polish DMI Website UI & Deploy" created (Screenshot 2)
-- [ ] Task 3: All six Stories connected to the Epic, assigned to you, with descriptions/acceptance criteria/points/labels (Screenshots 3 & 4)
-- [ ] Task 4: Four Sub-tasks created under both S2 and S4 (Screenshots 5 & 6)
-- [ ] Task 5: Frontend and devops labels applied to all Stories (Screenshot 7)
-- [ ] Task 6: One-week Sprint 1 started with the required Sprint Goal (Screenshots 8 & 9)
-- [ ] Task 7: Frontend and devops filters demonstrated (Screenshots 10 & 11)
-- [ ] Task 8: Burndown Chart opened for Sprint 1 (Screenshot 12)
-- [ ] Full Name visible in required screenshots
-- [ ] No sensitive data exposed
+- [✅] Task 1: Private team-managed Scrum Space created with your name (Screenshot 1)
+- [✅] Task 2: Epic "Polish DMI Website UI & Deploy" created (Screenshot 2)
+- [✅] Task 3: All six Stories connected to the Epic, assigned to you, with descriptions/acceptance criteria/points/labels (Screenshots 3 & 4)
+- [✅] Task 4: Four Sub-tasks created under both S2 and S4 (Screenshots 5 & 6)
+- [✅] Task 5: Frontend and devops labels applied to all Stories (Screenshot 7)
+- [✅] Task 6: One-week Sprint 1 started with the required Sprint Goal (Screenshots 8 & 9)
+- [✅] Task 7: Frontend and devops filters demonstrated (Screenshots 10 & 11)
+- [✅] Task 8: Burndown Chart opened for Sprint 1 (Screenshot 12)
+- [✅] Full Name visible in required screenshots
+- [✅] No sensitive data exposed
 
 ---
 
