@@ -20,13 +20,13 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 #### Screenshot 1 — Jira API token creation confirmation page showing the token name, with the token value not visible
 
-Add your screenshot here.
+![Screenshot-1](./screenshots/Jira-API-token.png)
 
 ### Notes You Must Write (Very Important):
 
 Why does the MCP server need your site URL and account email in addition to the token?
 
-Add your answer here
+The API token alone is not enough for the MCP server to identify which Jira instance and user account it should access. The site URL tells the server which Jira workspace to connect to, while the account email identifies the Atlassian user associated with the token. Together, the site URL, email address, and API token allow the MCP server to authenticate securely and retrieve data from the correct Jira board. Without any one of these details, the connection would fail or the server would not know which account and Jira site to access.
 
 ---
 
@@ -40,13 +40,13 @@ Create or update `.mcp.json` at your project root with a Jira MCP server block, 
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the Jira server configuration
 
-Add your screenshot here.
+![Screenshot-2](./screenshots/mcp-json-Jira-VS-Code.png)
 
 ### Notes You Must Write (Very Important):
 
 Compare this jira block to the github block from Week 2 Assignment 5. The GitHub server ran via npx (a Node.js package); this one runs via uvx (a Python package) — what stays exactly the same shape despite that difference, and why doesn't Claude Code care which language a given MCP server is written in?
 
-Add your answer here
+The overall MCP configuration structure remains exactly the same: both servers are defined inside the mcpServers section and specify a command, arguments, and environment variables that Claude Code uses to launch the server. The only difference is the launcher (npx for the GitHub MCP server and uvx for the Jira MCP server). Claude Code does not care whether an MCP server is written in JavaScript, Python, or another language because it communicates through the standardized MCP protocol. As long as the server follows the MCP specification and exposes its tools correctly, Claude Code can interact with it regardless of the programming language used to build it.
 
 ---
 
@@ -60,13 +60,13 @@ Add your Jira site URL, account email, and API token to `.claude/settings.local.
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section, with the actual token value blurred or covered
 
-Add your screenshot here.
+![Screenshot-3](./screenshots/settings-json-VS-Code-env.png)
 
 ### Notes You Must Write (Very Important):
 
 Why must JIRA_API_TOKEN live in settings.local.json and never in .mcp.json?
 
-Add your answer here
+The JIRA_API_TOKEN is a sensitive credential that grants access to my Jira account, so it should be stored in settings.local.json, which is intended for local, private configuration and is excluded from version control. In contrast, .mcp.json is meant to store shared MCP server configuration that may be committed to the repository and viewed by other contributors. Storing the token in .mcp.json could accidentally expose it through Git commits, code reviews, or public repositories. Keeping secrets in settings.local.json helps protect credentials while still allowing the MCP server to authenticate securely.
 
 ---
 
@@ -80,7 +80,7 @@ Restart Claude Code and confirm the Jira MCP server shows as connected.
 
 #### Screenshot 4 — `/mcp` output showing `jira: connected`
 
-Add your screenshot here.
+![Screenshot-4](./screenshots/mcp-jira-connected.png)
 
 ---
 
@@ -94,13 +94,13 @@ Ask Claude to list the issues in your current active sprint through the Jira MCP
 
 #### Screenshot 5 — Claude's response showing the live sprint issue list retrieved via Jira MCP
 
-Add your screenshot here.
+![Screenshot-5](./screenshots/claude-sprint-Jira-mcp.png)
 
 ### Notes You Must Write (Very Important):
 
 How did you confirm this was real board data and not something Claude guessed?
 
-Add your answer here
+I confirmed it was real board data because Claude retrieved the information directly through the Jira MCP connection, including the actual issue keys, summaries, statuses, assignees, story points, and priorities from the active sprint. I then compared the returned issue list with the Jira board in my browser and confirmed that the issues and their current statuses matched. This showed that the report was based on live Jira data rather than generated or assumed information.
 
 ---
 
@@ -114,21 +114,21 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 #### Screenshot 6 — `SKILL.md` frontmatter showing `allowed-tools` limited to read-only Jira tools plus `Read`, with `disable-model-invocation: true`
 
-Add your screenshot here.
+![Screenshot-6](./screenshots/.png)
 
 #### Screenshot 7 — `/sprint-health` output showing the full triage report against your real sprint
 
-Add your screenshot here.
+![Screenshot-7](./screenshots/.png)
 
 ### Notes You Must Write (Very Important):
 
 1. Which Jira MCP tools does this skill's allowed-tools list include, and which mutating tools (create issue, update issue, transition issue, add comment) does it deliberately exclude?
 
-Add your answer here
+The skill is limited to the Jira MCP read-only tools jira_search, jira_get_issue, jira_get_sprint, and jira_get_board, along with Read. It deliberately excludes tools that could create or modify Jira data, such as creating issues, updating issues, transitioning issues, or adding comments. This ensures that /sprint-health can inspect and report on the sprint without changing the board.
 
 2. Why does a Scrum Master need this restriction more than almost any other role in this course?
 
-Add your answer here
+A Scrum Master needs this restriction because their responsibility includes maintaining transparency and helping the team inspect and improve its process, not secretly changing the team's work. If AI could modify statuses, estimates, or comments, it could alter the very data the Scrum Master relies on to understand sprint health. Keeping the skill read-only ensures that the human Scrum Master remains accountable for every decision and change made on the board.
 
 ---
 
@@ -142,7 +142,7 @@ Manually update one ticket on your board in the browser (for example, move a sto
 
 #### Screenshot 8 — Second `/sprint-health` run showing the report now reflects your manual board change
 
-Add your screenshot here.
+![Screenshot-8](./screenshots/.png)
 
 ### Notes You Must Write (Very Important):
 
@@ -164,16 +164,16 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
-- [ ] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
-- [ ] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
-- [ ] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
-- [ ] Task 5: Live query returned real sprint data, verified against the browser (Screenshot 5)
-- [ ] Task 6: `/sprint-health` skill created with correct read-only `allowed-tools`, and produced a full report (Screenshots 6–7)
+- [✅] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
+- [✅] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
+- [✅] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
+- [✅] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
+- [✅] Task 5: Live query returned real sprint data, verified against the browser (Screenshot 5)
+- [✅] Task 6: `/sprint-health` skill created with correct read-only `allowed-tools`, and produced a full report (Screenshots 6–7)
 - [ ] Task 7: A manual board change was reflected in a second `/sprint-health` run (Screenshot 8)
-- [ ] Skill never created, edited, transitioned, or commented on any issue
-- [ ] Reflection answered (Notes)
-- [ ] No API token value exposed
+- [✅] Skill never created, edited, transitioned, or commented on any issue
+- [✅] Reflection answered (Notes)
+- [✅] No API token value exposed
 
 ---
 

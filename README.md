@@ -135,7 +135,7 @@ Week 04 → Git & GitHub
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-agenticai-claudecode-ugcPost-7482967498653339648-ngOJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY | https://medium.com/@alisumaila.1000/reflection-week-2-c12f1da5d05d?sharedUserId=alisumaila.1000 |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/abdulganiyu0_devops-linux-aws-ugcPost-7485492472052269056-Cg8e/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY | https://medium.com/@alisumaila.1000/i-intentionally-took-down-my-aws-server-to-learn-incident-response-4c74ed343dca?sharedUserId=alisumaila.1000 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/abdulganiyu0_dmibypravinmishra-devops-git-ugcPost-7488002740275707905-t3Vw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFamVAYBbC0P-4_t5y56JbVGUfZFmuyqJnY | https://medium.com/@alisumaila.1000/the-commit-that-never-happened-building-a-git-safety-net-with-bash-and-ai-8d2061683690?sharedUserId=alisumaila.1000 |
-| 05 | DevOps Lifecycle & Agile | 🔄 In Progress | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | 🔄 In Progress | ⏳ Pending | https://lnkd.in/p/dvwmweGm | https://medium.com/@alisumaila.1000/from-jira-tickets-to-ai-sprint-health-reports-what-i-learned-building-read-only-agile-assistants-c3c23b05b939?sharedUserId=alisumaila.1000 |
 | 06 | AWS Cloud | 🔄 In Progress | ⏳ Pending | — | — |
 | 07 | Azure Cloud | 🔄 In Progress | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
