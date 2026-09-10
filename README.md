@@ -138,8 +138,8 @@ Week 04 → Git & GitHub
 | 05 | DevOps Lifecycle & Agile | 🔄 In Progress | ⏳ Pending | https://lnkd.in/p/dvwmweGm | https://medium.com/@alisumaila.1000/from-jira-tickets-to-ai-sprint-health-reports-what-i-learned-building-read-only-agile-assistants-c3c23b05b939?sharedUserId=alisumaila.1000 |
 | 06 | AWS Cloud | 🔄 In Progress | ⏳ Pending | — | — |
 | 07 | Azure Cloud | 🔄 In Progress | ⏳ Pending | — | — |
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Terraform | ⬜ 🔄 In Progress | ⏳ Pending | — | — |
+| 09 | Ansible | ⬜ 🔄 In Progress | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
