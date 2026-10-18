@@ -20,19 +20,19 @@ Create `epicbook-vpc` (10.0.0.0/16) with a public subnet (10.0.1.0/24) and a pri
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-![Screenshot-1](./screenshots/.png)
+![Screenshot-1](./screenshots/VPC-details.png)
 
 ---
 
 #### Screenshot 2 — Subnets list showing both subnets and their CIDRs
 
-![Screenshot-2](./screenshots/.png)
+![Screenshot-2](./screenshots/public-subnet.png) ![Screenshot-2](./screenshots/private-subnet.png)
 
 ---
 
 #### Screenshot 3 — Route table showing 0.0.0.0/0 → IGW and association with the public subnet
 
-![Screenshot-3](./screenshots/.png)
+![Screenshot-3](./screenshots/Route-table-IGW.png)
 
 ---
 
@@ -46,13 +46,13 @@ Create `epicbook-ec2-sg` (SSH from your IP, HTTP/HTTPS public) and `epicbook-rds
 
 #### Screenshot 4 — EC2 security-group inbound rules showing ports and sources
 
-![Screenshot-4](./screenshots/.png)
+![Screenshot-4](./screenshots/EC2-security-group.png)
 
 ---
 
 #### Screenshot 5 — RDS security-group inbound rule showing MySQL 3306 allowed from the EC2 security group
 
-![Screenshot-5](./screenshots/.png)
+![Screenshot-5](./screenshots/RDS-security-group.png)
 
 ---
 
@@ -66,13 +66,13 @@ Launch an Ubuntu 20.04 instance in the public subnet with `epicbook-ec2-sg` atta
 
 #### Screenshot 6 — EC2 instance summary showing the public IPv4 address, subnet, and security group
 
-![Screenshot-6](./screenshots/.png)
+![Screenshot-6](./screenshots/EC2-public-IPv4-address.png)
 
 ---
 
 #### Screenshot 7 — Terminal showing a successful SSH login with the `ubuntu@...` prompt
 
-![Screenshot-7](./screenshots/.png)
+![Screenshot-7](./screenshots/successful-SSH-login.png)
 
 ---
 
@@ -217,9 +217,9 @@ Verify the frontend loads publicly, the backend responds through Nginx, and EC2 
 
 # Completion Checklist
 
-- [ ] Task 1: VPC, public/private subnets, IGW, and public routing created (Screenshots 1–3)
-- [ ] Task 2: Least-privilege EC2 and RDS security groups created (Screenshots 4–5)
-- [ ] Task 3: Ubuntu EC2 launched in the public subnet with SSH verified (Screenshots 6–7)
+- [✅] Task 1: VPC, public/private subnets, IGW, and public routing created (Screenshots 1–3)
+- [✅] Task 2: Least-privilege EC2 and RDS security groups created (Screenshots 4–5)
+- [✅] Task 3: Ubuntu EC2 launched in the public subnet with SSH verified (Screenshots 6–7)
 - [ ] Task 4: Node.js, npm, Nginx, and MySQL client installed (Screenshots 8–10)
 - [ ] Task 5: Private MySQL RDS created with no public access (Screenshots 11–12)
 - [ ] Task 6: Database initialized from the SQL dump (Screenshot 13)
