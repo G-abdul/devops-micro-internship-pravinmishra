@@ -114,11 +114,11 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 #### Screenshot 6 — `SKILL.md` frontmatter showing `allowed-tools` limited to read-only Jira tools plus `Read`, with `disable-model-invocation: true`
 
-![Screenshot-6](./screenshots/.png)
+![Screenshot-6](./screenshots/SKILL-md-allowed-tools-jira.png)
 
 #### Screenshot 7 — `/sprint-health` output showing the full triage report against your real sprint
 
-![Screenshot-7](./screenshots/.png)
+![Screenshot-7](./screenshots/sprint-health-full-triage.png) ![Screenshot-7](./screenshots/sprint-health-full-triage-2.png)
 
 ### Notes You Must Write (Very Important):
 
@@ -142,13 +142,21 @@ Manually update one ticket on your board in the browser (for example, move a sto
 
 #### Screenshot 8 — Second `/sprint-health` run showing the report now reflects your manual board change
 
-![Screenshot-8](./screenshots/.png)
+![Screenshot-8](./screenshots/sprint-health-manual-change-1.png) ![Screenshot-8](./screenshots/sprint-health-manual-change-2.png)
 
 ### Notes You Must Write (Very Important):
 
 Map this assignment to Gather → Analyze → Human Act → Verify from Week 3 Assignment 6. Which step did you perform manually in the browser, and why must that step stay human?
 
-Add your answer here
+It is important to know that this assignment follows the Gather - Analyze - Human Act - Verify pattern.
+
+Gather: /sprint-health used the read-only Jira MCP tools to retrieve the current sprint and issue data.
+
+Analyze: Claude analyzed the retrieved information to report sprint progress, at-risk stories, and issues with missing estimates.
+
+Human Act: I manually changed a ticket on the live Jira board in the browser. This step remained human because changing issue status or estimates modifies the team's shared source of truth and should require deliberate human judgement and accountability.
+
+Verify: I ran /sprint-health again. The new report retrieved the updated Jira state and reflected my manual change, demonstrating that the skill reads live board data but does not mutate the board itself.
 
 ---
 
@@ -170,7 +178,7 @@ Your submission must include:
 - [✅] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
 - [✅] Task 5: Live query returned real sprint data, verified against the browser (Screenshot 5)
 - [✅] Task 6: `/sprint-health` skill created with correct read-only `allowed-tools`, and produced a full report (Screenshots 6–7)
-- [ ] Task 7: A manual board change was reflected in a second `/sprint-health` run (Screenshot 8)
+- [✅] Task 7: A manual board change was reflected in a second `/sprint-health` run (Screenshot 8)
 - [✅] Skill never created, edited, transitioned, or commented on any issue
 - [✅] Reflection answered (Notes)
 - [✅] No API token value exposed
